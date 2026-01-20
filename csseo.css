@@ -166,3 +166,31 @@ body {
 .enlacedown {
   margin-left: 200px;
 }
+
+
+
+.section-box {
+  scroll-margin-top: 110px;
+}
+
+
+#scrollBtn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  padding: 15px 18px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ff9800;
+  color: black;
+  cursor: pointer;
+  z-index: 2000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  transition: transform 0.3s, background 0.3s;
+}
+
+#scrollBtn:hover {
+  transform: scale(1.1);
+  background-color: #ffc107;
+}
