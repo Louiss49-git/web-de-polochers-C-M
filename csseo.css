@@ -121,6 +121,14 @@ body {
   transform: scale(1.2);
 }
 
+.asociados-img {
+  max-width: 500px;
+  margin: 30px auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
 .footer-box {
   background-color: #111;
   color: white;
@@ -141,25 +149,20 @@ body {
     margin: 10px 0;
   }
 
-  .zoom {
+  .zoom,
+  .asociados-img {
     width: 100%;
   }
 }
-
 
 #scarface {
   margin-top: -425px;
 }
 
-
-.enlaceup{
-
-
+.enlaceup {
   margin-left: 200px;
 }
 
-.enlacedown{
-
-
-  margin-left: 200px ;
+.enlacedown {
+  margin-left: 200px;
 }
